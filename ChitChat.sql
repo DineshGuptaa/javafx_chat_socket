@@ -190,7 +190,18 @@ CREATE TABLE `users` (
 
 LOCK TABLES `users` WRITE;
 /*!40000 ALTER TABLE `users` DISABLE KEYS */;
-INSERT INTO `users` VALUES (42,'gg_14','C10CE3C5B91B2EDF067D77958A11AD9764EA58D4',0,'garvitgupta58@gmail.com','9897116543','src/resources/server_resources/ChitChat_BVXGR.jpg'),(44,'eXperienced','4DEE61AAAE702DF02DE67AA02FB2D45B1065559E',0,'experienced@chitchat.com','9999999999','src/resources/server_resources/ChitChat_DM3VQ.jpg'),(45,'smt_coder','5993BFBB508F0C48C83F1D3C96AC7A1A790EFD22',0,'smt@chitchat.com','9888888888','src/resources/server_resources/ChitChat_S8YM8.jpg'),(46,'satan_nightmare','C63DA39ED13090239F702C236D56FDBE77E99B03',0,'satan@chitchat.com','9777777777','src/resources/server_resources/ChitChat_10UUR.jpg'),(47,'hohos','D11186354D1EF01CA06AE37D7E23E827DA13E85F',0,'hohos@chitchat.com','9777777777','src/resources/server_resources/ChitChat_8CL9T.jfif'),(48,'Thanos','2A412AE07B7993BF3612EB94431A9D06E919550C',0,'thanos@chitchat.com','9666666666','src/resources/server_resources/ChitChat_2S5TY.jpg'),(49,'iron_man','B6A8F89581549D66F7D66487D4BBB46FF4F3C59C',0,'ironman@ChitChat.com','9595959595','src/resources/server_resources/ChitChat_BYNG7.jpg'),(50,'captain_america','85F45E1685B99E03226A2A1371245DDB286D887A',0,'captain@chitchat.com','9898989898','src/resources/server_resources/ChitChat_G2KG5.jpg'),(51,'hulk','C829575CB9BDD27191CB3377C4F2E1794D6DD236',0,'hulk@chitchat.com','8787878787','src/resources/server_resources/ChitChat_XH8I0.jfif'),(52,'Avengers',NULL,1,NULL,NULL,'src/resources/server_resources/ChitChat_8QWKV.jfif'),(53,'Friends',NULL,1,NULL,NULL,'src/resources/server_resources/ChitChat_KLGQA.jfif'),(54,'party',NULL,1,NULL,NULL,NULL),(55,'Secret_Group',NULL,1,NULL,NULL,NULL);
+INSERT INTO `users` VALUES (1,'gg_14','C10CE3C5B91B2EDF067D77958A11AD9764EA58D4',0,'garvitgupta58@gmail.com','9897116543','src/resources/server_resources/ChitChat_BVXGR.jpg'),
+	(2,'eXperienced','4DEE61AAAE702DF02DE67AA02FB2D45B1065559E',0,'experienced@chitchat.com','9999999999','src/resources/server_resources/ChitChat_DM3VQ.jpg'),
+	(3,'smt_coder','5993BFBB508F0C48C83F1D3C96AC7A1A790EFD22',0,'smt@chitchat.com','9888888888','src/resources/server_resources/ChitChat_S8YM8.jpg'),
+	(4,'satan_nightmare','C63DA39ED13090239F702C236D56FDBE77E99B03',0,'satan@chitchat.com','9777777777','src/resources/server_resources/ChitChat_10UUR.jpg'),
+	(5,'hohos','D11186354D1EF01CA06AE37D7E23E827DA13E85F',0,'hohos@chitchat.com','9777777777','src/resources/server_resources/ChitChat_8CL9T.jfif'),
+	(6,'Thanos','2A412AE07B7993BF3612EB94431A9D06E919550C',0,'thanos@chitchat.com','9666666666','src/resources/server_resources/ChitChat_2S5TY.jpg'),
+	(7,'iron_man','B6A8F89581549D66F7D66487D4BBB46FF4F3C59C',0,'ironman@ChitChat.com','9595959595','src/resources/server_resources/ChitChat_BYNG7.jpg'),
+	(8,'captain_america','85F45E1685B99E03226A2A1371245DDB286D887A',0,'captain@chitchat.com','9898989898','src/resources/server_resources/ChitChat_G2KG5.jpg'),
+	(9,'hulk','C829575CB9BDD27191CB3377C4F2E1794D6DD236',0,'hulk@chitchat.com','8787878787','src/resources/server_resources/ChitChat_XH8I0.jfif'),
+	(10,'Avengers',NULL,1,NULL,NULL,'src/resources/server_resources/ChitChat_8QWKV.jfif'),
+	(11,'Friends',NULL,1,NULL,NULL,'src/resources/server_resources/ChitChat_KLGQA.jfif'),
+	(12,'party',NULL,1,NULL,NULL,NULL),(55,'Secret_Group',NULL,1,NULL,NULL,NULL);
 /*!40000 ALTER TABLE `users` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
